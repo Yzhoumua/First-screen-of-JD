@@ -1,0 +1,1672 @@
+/* 初始化开始 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box{
+    margin: 0 auto;
+    width: 1200px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.lf{
+    float: left;
+}
+.rg{
+    float:right
+}
+.position{
+    position: relative;
+}
+/* 初始化结束 */
+
+/* 顶部开始 */
+.xian{
+    height:1px;
+    width: 100%;
+    border-top: 1px solid #f1f1f1;
+}
+.topborder::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    z-index: 3;
+    display: none;
+}
+header{
+    background-color: #e3e4e5;
+    border-bottom:1px solid #ddd;
+    box-sizing: border-box;
+}
+header .box {
+    background-color: #e3e4e5;
+    font-size: 12px;
+    line-height: 30px;
+}
+header .box a{
+    color: #999;
+}
+header .box .toplf .toplftext span{
+    color: #999;
+}
+header .box .toplf .toplftext{
+    cursor: pointer;
+    padding: 0 5px;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid rgba(153, 153, 153, 0);
+}
+header .box .toplf .toplftext:hover{
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid rgba(255, 255, 255, 0) ;
+    background-color: #fff;
+}
+header .box .toplf .toplftext span:hover{
+    color: #f10215;
+}
+header .box .toplf .toplftext:hover.topborder::after {
+    display: block;
+}
+header .box .toplf .toplftext:hover.topborder .topleftclone{
+    display: block;
+}
+header .box .toplf .toplftext i{
+    color: #f10215;
+    vertical-align: -1px;
+}
+header .box .toplf .toplftext .topleftclone{
+    width: 320px;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    background-color:  #fff;
+    z-index: 3;
+    display: none;
+}
+.topleftclone.dianji{
+    display: none;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone1{
+    padding: 0 5px;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone1 ul li{
+    float: left;
+    margin: 2px 27px 2px 0px;
+    padding:0 5px;
+    cursor: pointer;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone1 ul li:hover{
+    background-color: #f4f4f4;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone1 ul li a:hover{
+    color: #f10215;
+    
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2{
+    padding:  0 8px;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 .topleftclone2border{
+    border-bottom: 1px dotted #eee;
+    height: 0;
+    width: 262px;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 h3{
+    font-weight: normal;
+    font-size: 12px;
+    color: #999;
+    margin: 5px 0;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul li{
+    float: left;
+    margin-right: 30px;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul .guo::before{
+    width: 17px;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: -2px;
+    background-image: url(../images//headertop/guo.png);
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul .guo0::before{
+    background-position: 0 0;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul .guo1::before{
+    background-position: 16px 0;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul .guo2::before{
+    background-position: 36px 4px;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul .guo3::before{
+    background-position: 0 15px;
+}
+header .box .toplf .toplftext .topleftclone .topleftclone2 ul .guo4::before{
+    background-position: 36px 14px;
+}
+header .box .toprg .toprgcont .toprgcontson:first-child a span{
+    padding-left: 10px;
+}
+header .box .toprg .toprgcont .toprgcontson a:hover{
+    color: #f10215;
+}
+header .box .toprg .toprgcont .toprgcontson a:hover i{
+    color: #999;
+}
+header .box .toprg .toprgcont .toprgcontson a span{
+    color: #f10215;
+}
+header .box .toprg .toprgcont .toprgcontson a i{
+    font-size: 10px;
+    padding-left: 5px;
+}
+header .box .toprg .toprgcont .toprgcontson{
+    float: left;
+    margin-left: 14px;
+    color: #999;
+    position: relative;
+    padding: 0 8px;
+}
+header .box .toprg .toprgcont .toprgcontson:first-child::before{
+    background-color: rgba(238, 238, 238, 0);
+}
+header .box .toprg .toprgcont .toprgcontson::before{
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: #ccc;
+    margin-left: -15px;
+    position: absolute;
+     top: 11px;
+}
+header .box .toprg .toprgcont .toprgcontson:nth-child(3),header .box .toprg .toprgcont .toprgcontson:nth-child(5),header .box .toprg .toprgcont .toprgcontson:nth-child(6),header .box .toprg .toprgcont .toprgcontson:nth-child(7){
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid rgba(153, 153, 153, 0);
+}
+header .box .toprg .toprgcont .toprgcontson:nth-child(3):hover,header .box .toprg .toprgcont .toprgcontson:nth-child(5):hover,header .box .toprg .toprgcont .toprgcontson:nth-child(6):hover,header .box .toprg .toprgcont .toprgcontson:nth-child(7):hover{
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid rgba(255, 255, 255, 0) ;
+    background-color: #fff;
+}
+header .box .toprg .toprgcont .toprgcontson:hover.topborder::after{
+    display: block;
+}
+header .box .toprg .toprgcont .toprgcontson:hover div{
+    display: block;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson3{
+    position: absolute;
+    width: 280px;
+    top: 29px;
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    left: -1px;
+    display: none;
+    z-index: 3;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson3 .toprgcontson3clone{
+    padding: 10px;
+    box-sizing: border-box;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson3 .toprgcontson3clone ul li{
+    float: left;
+    margin-right: 60px;
+    font-size: 10px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson5{
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    top: 29px;
+    left: -1px;
+    display: none;
+    z-index: 3;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson5 ul li{
+    float: left;
+    margin-right: 10px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson6{
+    width: 170px;
+    box-sizing: border-box;
+    position: absolute;
+    top:29px;
+    left: -1px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display:none;
+    z-index: 3;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson6 .toprgcontson6clone h3{
+    font-weight: normal;
+    font-size: 12px;
+    color: #666;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson6 .toprgcontson6clone{
+    padding: 10px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson6 .toprgcontson6clone ul li{
+    float: left;
+    margin-right: 20px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson7{
+    width: 1200px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 29px;
+    left: -1030px;
+    background-color: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: none;
+    z-index: 3;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson7 .toprgcontson7clone h3{
+    font-size: 12px;
+    color: #666;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson7 .toprgcontson7clone{
+    padding: 0px 10px 0px 15px;
+    float: left;
+    width: 24%;
+    box-sizing: border-box;
+    position: relative;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson7 .toprgcontson7clone ul li{
+    float: left;
+    margin-right: 15px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson7 .toprgcontson7clone:last-child::after{
+    display: none;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson7 .toprgcontson7clone::after{
+    background-color: #eee;
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height:100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+.toprgcontson8sanjiao::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 25px;
+    border-left: 5px solid rgba(255, 255, 255, 0);
+    border-right: 5px solid rgb(255, 255, 255);
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    transform:rotate(225deg);
+    display: none;
+    z-index: 3;
+}
+header .box .toprg .toprgcont .toprgcontson.toprgcontson8sanjiao:hover::after{
+    display: block;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8{
+    width: 190px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    top: 30px;
+    left: -120px;
+    position: absolute;
+    padding: 10px 0;
+    display: none;
+    z-index: 3;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone{
+    box-sizing: border-box;
+  padding: 10px 0 10px 5px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8tu{
+    float: left;
+    border: 1px solid #ccc;
+    height: 70px;
+    padding: 5px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8tu img{
+    height: 70px;
+    width: 70px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text{
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text .son8texth{
+    color: #666;
+    line-height: 17px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text .son8textjs{
+    color: #f10215;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text .son8texticon i{
+    float: left;
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/headertop/son8tuicon.png);
+    cursor: pointer;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text .son8texticon .iphone{
+    background-position:0 0 ;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text .son8texticon .android{
+    background-position: 0 25px;
+}
+header .box .toprg .toprgcont .toprgcontson .toprgcontson8 .toprgcontson8clone .son8text .son8texticon .ipad{
+    background-position: 0 50px;
+}
+/* 顶部结束 */
+
+/* 搜索框开始 */
+.centerBox{
+    padding: 0 0 10px 0;
+}
+.centerBox .centerinit .centerlf{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.centerBox .centerinit .centerlf .logo a{
+    width: 190px;
+    height: 120px;
+    display: block;
+    overflow: hidden;
+    background-image: url(../images/sskuang/jdlogo.png);
+}
+.centerBox .centerinit .centerlf .logo a.active{
+    background-image: url(../images/sskuang/sskuanglflogo.gif);
+}
+.centerBox .centerinit .center .centertop{
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isInput input:focus{
+    outline: none;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput{
+    border: 2px solid #e2231a;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isInput input{
+    border: 1px solid transparent;
+    width: 425px;
+    padding: 2px 44px 2px 17px;
+    line-height: 26px;
+    font-size: 12px;
+    height: 26px;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isInput .xiangji{
+    position: absolute;
+    display:block;
+    right: 12px;
+    top: 5px;
+    font-size: 20px;
+    color: #666;
+    z-index: 2;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isInput .xiangji:hover{
+    color: #f10215;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isFang{
+    width: 58px;
+    height: 32px;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isFang button{
+    width: 58px;
+    height: 32px;
+    border: 1px solid #f1021600;
+    background-color: #e2231a;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isFang button a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centerinput .isFang button:focus{
+    outline: none;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop{
+    width: 132px;
+    height:36px;
+    box-sizing: border-box;
+    border: 1px solid #e3e4e5;
+    margin-left: 20px;
+    background-color: #fff;
+    line-height: 36px;
+}
+
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .shoplf{
+    margin-left: 20px;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .shoplf a{
+    font-size: 20px;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .shoplf span{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #e2231a;
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    right: -10px;
+    z-index: 3;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop{
+    z-index: 2;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop a{
+    color: #e2231a;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .shoprg a{
+    font-size: 12px;
+    margin-left:10px;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop:hover .loadingshop{
+    display: block;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .loadingshop{
+    position: absolute;
+    top:35px;
+    border: 1px solid #e2231a;
+    width: 310px;
+    height: 70px;
+    background: #fff;
+    left:-181px;
+    display: none;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .loadingshop::after{
+    top: -1px;
+    right: 0;
+    width: 130px;
+    background: #fff;
+    height: 3px;
+    content: "";
+    position: absolute;
+    display: inline-block;
+}
+.centerBox .centerinit .center .centertop .centerinputbox .centershop .loadingshop img{
+    text-align: center;
+    line-height: 70px;
+    margin:20px auto;
+    display: block;
+}
+.centerBox .centerinit .center .centertop  .centerinputbom ul li{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    
+}
+.centerBox .centerinit .center .centertop  .centerinputbom ul li a{
+    color: #999;
+}
+.centerBox .centerinit .center .centertop  .centerinputbom ul li a:hover{
+    color: #e2231a;
+}
+.centerBox .centerinit .center .centertop .centerinputbom ul li:first-child a{
+    color:#e2231a;
+}
+.centerBox .centerinit .center  .centerbom{
+    margin-top: 30px;
+}
+.centerBox .centerinit .center  .centerbom ul li{
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.centerBox .centerinit .center  .centerbom ul li:nth-child(1) a,.centerBox .centerinit .center  .centerbom ul li:nth-child(2) a{
+    color: #e2231a;
+    font-weight: bold;
+}
+.centerBox .centerinit .center  .centerbom ul li a{
+    color: #333;
+}
+.centerBox .centerinit .center  .centerbom ul li a:hover{
+    color: #e2231a;
+}
+.centerBox .centerinit .centerrg{
+    width: 190px;
+    height: 120px;
+    margin-top: 10px;
+}
+.centerBox .centerinit .centerrg a img{
+    width: 190px;
+    height: 120px;
+}
+
+.contbox{
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.contbox .cont .contlf{
+    width: 190px;
+    height: 500px;
+    margin-right: 10px;
+    background-color: #fefefe;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+.contbox .cont .contlf ul li{
+    line-height: 25px;
+    padding:0 10px;
+}
+.contbox .cont .contlf ul li:hover{
+    background-color: #d9d9d9;
+}
+.contbox .cont .contlf ul li a{
+    font-size: 14px;
+    color: #333;
+}
+.contbox .cont .contlf ul li span{
+    padding: 0 2px;
+    font-size: 12px;
+}
+.contbox .cont .contlf ul li a:hover{
+    color: #c81623
+}
+.contbox .cont .contlf .contlfhover{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    background: #fff;
+    box-shadow: 2px 0 5px rgb(0 0 0 / 30%);
+    display:none;
+    z-index: 6;
+}
+.contbox .cont .contlf .contlfhover.active{
+    display: block;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1.active{
+    display: block;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1{
+    padding: 20px;
+    display: none;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lftop a{
+ margin-right: 10px;
+ height: 24px;
+ display: inline-block;
+ color: #fff;
+ background-color: #333;
+ padding: 0 10px;
+ line-height: 24px;
+ font-size: 12px;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lftop a i{
+    margin-left: 5px;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lfcont dl{
+   padding: 10px 0;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lfcont dl dt{
+    float: left;
+    width: 70px;
+   
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lfcont dl dt a{
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lfcont dl dt i{
+    font-size: 12px;
+    margin-top: 2px;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lfcont dl dd{
+    float: left;
+    padding-left:10px;
+    width: 700px;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover1lf .contlfhover1lfcont dl dd a{
+    margin-right: 5px;
+    font-size: 12px;
+    color: #333;
+    display: inline-block;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover2lf{
+    width: 171px;
+}
+.contbox .cont .contlf .contlfhover .contlfhover1 .contlfhover2lf a img{
+    display:block;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.contbox .cont .contcenter{
+    width: 590px;
+    height: 500px;
+    overflow: hidden;
+ 
+}
+.contbox .cont .contcenter img{
+    position: absolute;
+    width: 590px;
+    height: 500px;
+}
+.contbox .cont .contcenter .contcenterlf:hover,.contbox .cont .contcenter .contcenterrg:hover{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.contbox .cont .contcenter .contcenterlf,.contbox .cont .contcenter .contcenterrg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width:40px;
+    height:35px;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,.15);
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contbox .cont .contcenter .contcenterLun{
+    width: 590px;
+    height: 500px;
+}
+.contbox .cont .contcenter .contcenterLun a{
+    opacity: 0;
+}
+.contbox .cont .contcenter .contcenterlf i {
+   padding-left: 7px;
+}
+.contbox .cont .contcenter .contcenterlf{
+    left: -10px;
+    transform: rotate(180deg);
+}
+.contbox .cont .contcenter .contcenterrg{
+    
+    right:-10px;
+}
+.contbox .cont .contcenter .contcenterrg i {
+    padding-left: 7px;
+    
+}
+.contbox .cont .contcenter .contcenterLunan{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.contbox .cont .contcenter .contcenterLunan span{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 15px;
+    border: 1px solid rgba(0,0,0,.05);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contbox .cont .contcenter .contcenterLunan span.active{
+    background-color: rgba(255, 255, 255);
+}
+.contbox .cont .contcenter1{
+    width: 190px;
+    height: 500px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.contbox .cont .contcenter1 .contcenter1img:first-child{
+    margin-top: 0;
+}
+.contbox .cont .contcenter1 .contcenter1img a{
+    width: 190px;
+    height: 162px;
+
+    display: block;
+}
+.contbox .cont .contcenter1 .contcenter1img a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height:157px;
+    background-color: rgba(255, 255, 255, 0.55);
+    display: none;
+}
+.contbox .cont .contcenter1 .contcenter1img a:hover::before{
+   
+    display: block;
+}
+.contbox .cont .contcenter1 .contcenter1img{
+    margin-top: 10px;
+}
+.contbox .cont .contcenter1 .contcenter1img img{
+    width: 190px;
+    height: 157px;
+    opacity: 1;
+}
+.contbox .cont .contcenter1 .xiaobanner{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+.contbox .cont .contcenter1lf,.contbox .cont .contcenter1rg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width:40px;
+    height:35px;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,.15);
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0;
+    z-index: 3;
+}
+
+.contbox .cont .contcenter1lf i {
+   padding-left: 7px;
+}
+.contbox .cont .contcenter1lf{
+    left: -10px;
+    transform: rotate(180deg);
+}
+.contbox .cont .contcenter1rg{
+    
+    right:-10px;
+}
+.contbox .cont .contcenter1rg i {
+    padding-left: 7px;
+    
+}
+
+.contbox .cont .contrg {
+    margin-left: 10px;
+    width: 190px;
+    height: 500px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contbox .cont .contrg .contrgtop{
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+.contbox .cont .contrg .contrgtop .lf a{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/cont/contrg/yonghu.png);
+    display: block;
+    background-size: 100% 100%;
+    border: 2px solid #fff ;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+    border-radius: 100%;
+}
+.contbox .cont .contrg .contrgtop .rg{
+    width: 106px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.contbox .cont .contrg .contrgtop .rg p:hover,.contbox .cont .contrg .contrgtop .rg p a:hover{
+    color: #c81623;
+}
+.contbox .cont .contrg .contrgtop .rg p span{
+    padding: 0 5px;
+    display: inline-block;
+    margin-top:3px;
+}
+.contbox .cont .contrg .contrgtop .rg p a{
+    color: #333;
+}
+.contbox .cont .contrg .Vip{
+    margin:  0 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.contbox .cont .contrg .Vip div a{
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 13px;
+    font-size: 12px;
+    display: inline-block;
+}
+.contbox .cont .contrg .Vip .lf a{
+    color: #fff;
+    background: #e1251b;
+    margin-left: -10px;
+}
+.contbox .cont .contrg .Vip .rg a{
+    background-color: #363634;
+    color: #e5d790;
+    margin-right: -10px;
+}
+.contbox .cont .contrg .jdkb{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.contbox .cont .contrg .jdkb .jdkbtop h3{
+    font-size: 14px;
+    margin-left: 15px;
+    color: #333;
+}
+
+.contbox .cont .contrg .jdkb .jdkbtop a{
+    font-size: 12px;
+    color: #999;
+    margin-top: 2px;
+    margin-bottom:5px;
+}
+.contbox .cont .contrg .jdkb .newspaper h4{
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    color: #e1251b;
+    background-color: rgba(225,37,27,.08);
+    margin-right: 6px;
+    font-size: 12px;
+}
+.contbox .cont .contrg .jdkb .newspaper {
+    margin-top:2px;
+}
+.contbox .cont .contrg .jdkb::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 15px;
+    right: 15px;
+    background: linear-gradient(73deg,white,#eeeeee,#eeeeee,white);
+    display: block;
+    bottom: 0;
+}
+.contbox .cont .contrg .jdkb .newspaper p a{
+    line-height: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #999;
+    margin-bottom: 6px;
+    max-width: 125px;
+    height: 16px;
+    font-size: 12px;
+    display: block;
+}
+.contbox .cont .contrg .gongjubox{
+    height: 240px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.contbox .cont .contrg .gongjubox .gongju{
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 3px;
+}
+.contbox .cont .contrg .gongjubox .gongju i{
+    width: 28px;
+    height: 28px;
+    display: block;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.contbox .cont .contrg .gongjubox .gongju span{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 2px solid #fff;
+    color: #333;
+   margin-left: 15px;
+    font-size: 12px;
+}
+.contbox .cont .contrg .gongjubox .gongju span.active{
+    color: #e1251b;
+    font-weight: bold;
+    border-bottom: 2px solid #e1251b;
+}
+.contbox .cont .contrg .gongjubox .gongju1 i{
+    background-image: url(../images/cont/contrg/gongju/1.png);
+}
+.contbox .cont .contrg .gongjubox .gongju2 i{
+    background-image: url(../images/cont/contrg/gongju/2.png);
+}
+.contbox .cont .contrg .gongjubox .gongju3 i{
+    background-image: url(../images/cont/contrg/gongju/3.png);
+}
+.contbox .cont .contrg .gongjubox .gongju4 i{
+    background-image: url(../images/cont/contrg/gongju/4.png);
+}
+.contbox .cont .contrg .gongjubox .gongju4.active{
+    position: relative;
+    top: -58px;
+}
+.contbox .cont .contrg .gongjubox .gongju5 i{
+    background-image: url(../images/cont/contrg/gongju/5.png);
+}
+.contbox .cont .contrg .gongjubox .gongju6 i{
+    background-image: url(../images/cont/contrg/gongju/6.png);
+}
+.contbox .cont .contrg .gongjubox .gongju7 i{
+    background-image: url(../images/cont/contrg/gongju/7.png);
+}
+.contbox .cont .contrg .gongjubox .gongju8 i{
+    background-image: url(../images/cont/contrg/gongju/8.png);
+}
+.contbox .cont .contrg .gongjubox .gongju9 i{
+    background-image: url(../images/cont/contrg/gongju/9.png);
+}
+.contbox .cont .contrg .gongjubox .gongju10 i{
+    background-image: url(../images/cont/contrg/gongju/10.png);
+}
+.contbox .cont .contrg .gongjubox .gongju11 i{
+    background-image: url(../images/cont/contrg/gongju/11.png);
+}
+.contbox .cont .contrg .gongjubox .gongju12 i{
+    background-image: url(../images/cont/contrg/gongju/12.png);
+}
+.contbox .cont .contrg .gongjubox .gongju1:hover i{
+    background-image: url(../images/cont/contrg/gongju/1h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju2:hover i{
+    background-image: url(../images/cont/contrg/gongju/2h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju3:hover i{
+    background-image: url(../images/cont/contrg/gongju/3h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju4:hover i{
+    background-image: url(../images/cont/contrg/gongju/4h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju5:hover i{
+    background-image: url(../images/cont/contrg/gongju/5h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju6:hover i{
+    background-image: url(../images/cont/contrg/gongju/6h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju7:hover i{
+    background-image: url(../images/cont/contrg/gongju/7h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju8:hover i{
+    background-image: url(../images/cont/contrg/gongju/8h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju9:hover i{
+    background-image: url(../images/cont/contrg/gongju/9h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju10:hover i{
+    background-image: url(../images/cont/contrg/gongju/10h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju11:hover i{
+    background-image: url(../images/cont/contrg/gongju/11h.png);
+}
+.contbox .cont .contrg .gongjubox .gongju12:hover i{
+    background-image: url(../images/cont/contrg/gongju/12h.png);
+}
+.contbox .cont .contrg .gongjubox .gongjus.active{
+    margin-top: -36px;
+}
+.contbox .cont .contrg .gongjubox .gongjus{
+   margin-top: 0;
+}
+.huafeiandjipiaoandjiudian{
+    height:206px;
+    background: #fff;
+    z-index: 5;
+    position: relative;
+    padding:5px 0px;
+    color: #666;
+}
+.huafeiandjipiaoandjiudian.active{
+    top: -175px;
+}
+.huafeiandjipiaoandjiudian .huafeibox{
+    font-size: 12px;
+    display: none;
+}
+.huafeiandjipiaoandjiudian .huafeibox.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .huafeibox .huafeiliuliang a{
+    color: #666;
+    line-height: 16px;
+    margin-right:15px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox a{
+    color: #666;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox a:hover{
+    color: #e1251b;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox  span{
+    display: inline-block;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox p{
+    margin-top: 15px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox .hfbox1 input{
+    height: 25px;
+    width: 120px;
+    border: 1px solid #e7e7e7;
+    color: rgb(153, 153, 153);
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 5px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox .mianzhi select{
+    margin-left: 5px;
+    font-size: 12px;
+    height: 20px;
+    width: 120px;
+    height: 25px;
+    border: 1px solid #e7e7e7;
+    line-height: 25px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox .money,.huafeiandjipiaoandjiudian .huafeibox .llbox .money{
+    color: #e40015;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox .kschongzhi:hover,.huafeiandjipiaoandjiudian .huafeibox .llbox .kschongzhi:hover{
+    color: #fff;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox .kschongzhi,.huafeiandjipiaoandjiudian .huafeibox .llbox .kschongzhi{
+    width: 60px;
+    height: 20px;
+    background: #e40015;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .huafeiliuliang a.active{
+    color: #e40015;
+}
+.huafeiandjipiaoandjiudian .stop{
+    width:25px;
+    height:25px;
+    position: absolute;
+    bottom:10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color:#643664;
+    font-size: 12px;
+    line-height: 25px;
+}
+.huafeiandjipiaoandjiudian .stop:hover{
+    color: #fff;
+    background: #e40015;
+}
+
+.huafeiandjipiaoandjiudian .huafeibox .hfbox{
+    display: none;
+}
+.huafeiandjipiaoandjiudian .huafeibox .hfbox.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox{
+    display: none;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox p{
+    margin-top: 15px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox .llbox1 input{
+    height: 25px;
+    width: 120px;
+    border: 1px solid #e7e7e7;
+    color: rgb(153, 153, 153);
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 5px;
+}
+.huafeiandjipiaoandjiudian .huafeibox .llbox .liuliang select{
+    margin-left: 5px;
+    font-size: 12px;
+    height: 20px;
+    width: 54px;
+    height: 25px;
+    border: 1px solid #e7e7e7;
+    line-height: 25px;
+    color: #666;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox{
+    display: none;
+}
+
+.huafeiandjipiaoandjiudian .feijipiaobox a{
+    color: #666;
+    font-size: 12px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotop1 a{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotop1 a.active{
+    color: #e1251b;
+    
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab{
+    width: 9999px;
+    margin-left: -340px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab3{
+    width: 170px;
+    
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .from,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .from{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .from input,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .from input{
+    margin-left: 5px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .from span,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .from span{
+    vertical-align: 1px;
+    margin-left: 10px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position p:first-child,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position p:first-child{
+    margin-bottom: -3px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position p span,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position p span{
+    font-size: 12px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position p input,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position p input{
+    width: 120px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #e7e7e7;
+    color: #c2c2c2;
+    text-align: center;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position{
+    margin-top: 10px;
+    width: 148px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position p span,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position p span{
+    margin-right: 2px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position p input:hover,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position p input:hover{
+    border-color: #338fff;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .position .positiontu,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .position .positiontu{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-image: url(../images/cont/contrg/gongju/change-city.png);
+    background-size: 100% 100%;
+    right:-9px;
+    top: 13px;
+    cursor: pointer;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .time,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .time{
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .time span,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .time span{
+    font-size: 12px;
+    margin-right: 2px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .time input,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .time input{
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #e7e7e7;
+    color: #c2c2c2;
+    text-align: center;
+    width: 130px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .jipiaochaxun,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .jipiaochaxun{
+    width: 60px;
+    height: 20px;
+    background: #e40015;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 .jipiaochaxun:hover,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 .jipiaochaxun:hover{
+    color: #fff;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 a,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 a{
+    color: #527cdb;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab1 a:hover,.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab2 a:hover{
+    color: #e1251b;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab3{
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab3 a{
+    width: 75px;
+    display: inline-block;
+    height: 96px;
+    margin-right: 5px;
+}
+.huafeiandjipiaoandjiudian .feijipiaobox .jipiaotop .jipiaotab .jipiaotab3 a img{
+    width: 75px;
+    height: 96px;
+    display: inline-block;
+}
+.huafeiandjipiaoandjiudian .jiudianbox{
+    display:none;
+}
+.huafeiandjipiaoandjiudian .jiudianbox.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtop p a{
+    color: #666;
+    font-size: 12px;
+    margin-right: 10px
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtop p a.active{
+    color: #e1251b;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab{
+    width: 9999px;
+    margin-left: -170px;
+
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 span{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 p{
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1,.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab2{
+    width: 170px;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 input{
+    width: 103px;
+    height: 18px;
+    line-height: 20px;
+    border: 1px solid #e7e7e7;
+    padding: 0;
+    color: #c2c2c2;
+    font-family: inherit;
+    text-indent: 0.75em;
+    font-size: 12px;
+    float: right;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 input:hover,.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 .maps input:hover{
+    border-color: #338fff;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 .maps input{
+    width: 158px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #e7e7e7;
+    padding: 0;
+    color: #c2c2c2;
+    font-family: inherit;
+    text-indent: 0.75em;
+    font-size: 12px;
+    text-align: center;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 .jiudianchaxun{
+    width: 60px;
+    height: 20px;
+    background: #e40015;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 .jiudianchaxun:hover{
+    color: #fff;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 a:hover{
+    color: #e1251b;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab1 a{
+    font-size: 12px;
+    color: #338fff;
+}
+.huafeiandjipiaoandjiudian .jiudianbox .jiudianboxtab .jiudianboxtab2 a img{
+    width: 75px;
+    height: 96px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .gamebox{
+    display: none;
+}
+.huafeiandjipiaoandjiudian .gamebox.active{
+    display: block;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtop p a{
+    font-size: 12px;
+    color: #666;
+    margin-right: 15px;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtop p a.active{
+    color: #e1251b;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab{
+    width: 9999px;
+    margin-left: 0;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3{
+width: 170px;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 p,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 p,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 p{
+    margin-top: 10px;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 .gamechong span,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 .gamechong span,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 .gamechong span{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 .gamechong input,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 .gamechong input,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 .gamechong input{
+    width: 106px;
+    height: 18px;
+    line-height: 20px;
+    border: 1px solid #e7e7e7;
+    padding: 0;
+    color: #666;
+    font-family: inherit;
+    text-align: center;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 .gamechong input:hover,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 .gamechong input:hover,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 .gamechong input:hover{
+    border-color: #338fff;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 .money,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 .money,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 .money{
+    color: #e1251b;
+    font-size: 12px;
+}
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 .chongzhixuanxiang span,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 .chongzhixuanxiang span,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 .chongzhixuanxiang span{
+    font-size: 12px;
+    vertical-align: 2px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab1 .kschongzhi,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab2 .kschongzhi,.huafeiandjipiaoandjiudian .gamebox .gameboxtab .gameboxtab3 .kschongzhi{
+    width: 60px;
+    height: 20px;
+    background: #e40015;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+/* 中间部分结束 */
+
+footer{
+    padding-top: 30px;
+    background: #f4f4f4;
+}
+footer .footbox{
+    background: #f4f4f4;
+}
+footer .footbox .footboxlf a{
+    display: block;
+    width: 190px;
+    height: 260px;
+    background-image: url(../images/foot/time.png);
+    overflow: hidden;
+}
+footer .footbox .footboxlf a .miaosha{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+    color: #fff;
+}  
+footer .footbox .footboxlf .jieshu{
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}  
+footer .footbox .footboxlf .jieshu strong{
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -1px;
+} 
+footer .footbox .footboxlf .jieshutime{
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    display: block;
+}  
+footer .footbox .footboxlf .jieshutime strong{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #2f3430;
+    color: white;
+    font-size: 20px;
+    padding:  0 2px;
+    margin:  0 8px;
+}
+footer .footbox .footboxlf1{
+    width: 800px;
+    height: 260px;
+    overflow: hidden;
+}
+footer .footbox .footboxlf1 .footboxlf1tab{
+    width:800px;
+}
+footer .footbox .footboxlf1 .footboxlf1tab  .footboxlf1tabclone {
+    width:99999px;
+}
+footer .footbox .footboxlf1 .footboxlf1tab  .footboxlf1tabclone a{
+    width: 200px;
+    height: 260px;
+    background-color: #fff;
+}
+footer .footbox .footboxlf1 .footboxlf1tab  .footboxlf1tabclone a:hover::before{
+    display: block;
+}
+footer .footbox .footboxlf1 .footboxlf1tab  .footboxlf1tabclone a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.55);
+    display: none;
+}
+footer .footbox .footboxlf1 .footboxlf1tab  .footboxlf1tabclone a .footboxlf1img{
+    width: 140px;
+    height: 140px;
+    background-size: 100% 100%;
+ 
+}
+footer .footbox .footboxlf1 .footboxlf1tab  .footboxlf1tabclone a .footboxlf1img1{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .footbox .footboxlf1 .footboxlf1tab .footboxlf1tabclone a .title{
+    width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 0 20px;
+    color: #333;
+    margin-top: 10px;
+}
+footer .footbox .footboxlf1 .footboxlf1tab .footboxlf1tabclone .position::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 200px;
+    top: 0;
+    background: linear-gradient(180deg,white,#eeeeee,white);
+}
+footer .footbox .footboxlf1 .footboxlf1tab .footboxlf1tabclone a .titlemoney{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #e1251b;
+    font-weight: bold;
+}
+footer .footbox .footboxlf1 .footboxlf1tab .footboxlf1tabclone a:hover .title{
+    color: #e1251b;
+}
+footer .footbox  .miaosharg{
+    width: 200px;
+    height: 260px;
+    background: #fff;
+}
+footer .footbox  .miaosharg a .miaoshaimg{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background-image: url(../images/foot/miaosha.webp);
+    width: 120px;
+    height: 120px;
+}
+footer .footbox  .miaosharg a p{
+    width: 120px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer .footbox  .miaosharg a p:first-child{
+    color: #666;
+    font-weight: normal;
+}
+footer .footbox  .miaosharg a button{
+    color: #e1251b;
+    border-color: transparent;
+    background-color: #ffffff;
+    border-radius: 14px;
+    width: 82px;
+    height: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    line-height: 22px;
+    font-weight: 700;
+    padding-left: 4px;
+    font-size: 12px;
+    border: 1px solid #e1251b;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+footer .footbox  .miaosharg a button:hover{
+    color: #fff;
+    background: #e1251b;
+}
+.footboxlf1 .footboxlf1anlf,.footboxlf1 .footboxlf1anrg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width:40px;
+    height:35px;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,.15);
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.footboxlf1 .footboxlf1anlf i {
+   padding-left: 7px;
+}
+.footboxlf1 .footboxlf1anlf{
+    left: -10px;
+    transform: rotate(180deg);
+}
+.footboxlf1 .footboxlf1anrg{
+    right:-10px;
+}
+.footboxlf1 .footboxlf1anrg i {
+    padding-left: 7px;
+    
+}
+/* 尾部结束 */
